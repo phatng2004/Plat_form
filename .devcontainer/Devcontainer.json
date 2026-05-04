@@ -1,0 +1,14 @@
+{
+    "name": "PlatformIO Dev Environment",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "platformio.platformio-ide"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
